@@ -1,27 +1,27 @@
 # 🏥 Medical Text Readability Simplifier
 A Natural Language Processing (NLP) project designed to simplify complex medical text into easy-to-understand language using a hybrid rule-based + Transformer approach, along with a readability classification model.  
-This project also includes an interactive **Streamlit web application** for real-time simplification and readability analysis.
+This project also includes an interactive Streamlit web application for real time simplification and readability analysis.
 
 ---
 
 ## 📌 Project Overview
-Medical literature is often highly technical and difficult for non-medical readers to understand.  
+Medical literature is often highly technical and difficult for non medical readers to understand.  
 This project addresses the problem by automatically simplifying medical sentences while preserving their meaning and clinical accuracy.
 
 The system uses:
-- ✅ **Rule-based medical dictionary** for term replacement  
-- ✅ **T5 Transformer model (t5-small)** for context-aware simplification  
-- ✅ **Gradient Boosting Classifier** to classify readability (Easy / Medium / Difficult)  
-- ✅ **Readability metrics** (Flesch Reading Ease, Flesch-Kincaid Grade Level)  
-- ✅ **Streamlit interface** for interactive usage  
+- ✅ Rule-based medical dictionary for term replacement  
+- ✅ T5 Transformer model (t5-small) for context-aware simplification  
+- ✅ Gradient Boosting Classifier to classify readability (Easy / Medium / Difficult)  
+- ✅ Readability metrics (Flesch Reading Ease, Flesch-Kincaid Grade Level)  
+- ✅ Streamlit interface for interactive usage  
 
 ---
 
 ## 🎯 Objectives
 - Simplify complex medical text while retaining core meaning  
-- Use both rule-based and machine learning methods for robust simplification  
+- Use both rule based and machine learning methods for robust simplification  
 - Classify the readability difficulty of medical text  
-- Provide a user-friendly interface for simplification and evaluation  
+- Provide a user friendly interface for simplification and evaluation  
 - Quantify readability improvement using real metrics  
 
 ---
@@ -31,9 +31,9 @@ The system uses:
 
 Contains pairs of:
 - **Expert** (complex medical sentences)
-- **Simple** (expert-simplified sentences)
+- **Simple** (expert simplified sentences)
 
-A custom 30-sample dataset is also included for demonstration.
+A custom 30 sample dataset is also included for demonstration.
 
 ---
 
@@ -43,8 +43,8 @@ A custom 30-sample dataset is also included for demonstration.
 **Hybrid approach:**
 - **Rule-Based Simplification**  
   Replaces complex medical terms using an enhanced dictionary.
-- **T5 Transformer Model (t5-small)**  
-  Performs context-aware rewriting after rule-based preprocessing.
+- **T5 Transformer Model (t5 small)**  
+  Performs context aware rewriting after rule based preprocessing.
 - **Optional Google Translate**  
   Ensures English output if multilingual fragments appear.
 
@@ -127,7 +127,7 @@ Low misclassification across classes.
 - Upload or load sample dataset  
 - Train the ML classifier with adjustable hyperparameters  
 - Enter any medical text for simplification  
-- View original & simplified text side-by-side  
+- View original & simplified text side by side  
 - View readability metrics & model predictions  
 - Visualizations:
   - Bar charts  
@@ -146,8 +146,7 @@ Low misclassification across classes.
 - **textstat**
 - **matplotlib, seaborn**
 - **joblib**
-- **googletrans (optional)**
+- **googletrans**
 
 ---
 
-## 📁 Project Structure
